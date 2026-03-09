@@ -43,6 +43,16 @@ export const translations: Record<Language, any> = {
     classic: "Classic",
     modern: "Modern",
     minimal: "Minimal",
+    retro: "Retro",
+    elegant: "Elegant",
+    industrial: "Industrial",
+    organic: "Organic",
+    brutalist: "Brutalist",
+    futuristic: "Futuristic",
+    corporate: "Corporate",
+    playful: "Playful",
+    darkLuxury: "Dark Luxury",
+    technical: "Technical",
     terms: "Terms & Conditions"
   },
   bn: {
@@ -87,6 +97,16 @@ export const translations: Record<Language, any> = {
     classic: "ক্লাসিক",
     modern: "মডার্ন",
     minimal: "মিনিমাল",
+    retro: "রেট্রো",
+    elegant: "এলিগ্যান্ট",
+    industrial: "ইন্ডাস্ট্রিয়াল",
+    organic: "অরগানিক",
+    brutalist: "ব্রুটালিস্ট",
+    futuristic: "ফিউচারিস্টিক",
+    corporate: "কর্পোরেট",
+    playful: "প্লেফুল",
+    darkLuxury: "ডার্ক লাক্সারি",
+    technical: "টেকনিক্যাল",
     terms: "শর্তাবলী (Terms & Conditions)"
   },
   hi: {
@@ -131,6 +151,16 @@ export const translations: Record<Language, any> = {
     classic: "क्लासिक",
     modern: "मॉडर्न",
     minimal: "मिनिमल",
+    retro: "रेट्रो",
+    elegant: "एलिगेंट",
+    industrial: "इंडस्ट्रियल",
+    organic: "ऑर्गेनिक",
+    brutalist: "ब्रूटलिस्ट",
+    futuristic: "फ्यूचरिस्टिक",
+    corporate: "कॉर्पोरेट",
+    playful: "प्लेफुल",
+    darkLuxury: "डार्क लग्जरी",
+    technical: "तकनीकी",
     terms: "नियम एवं शर्तें"
   }
 };

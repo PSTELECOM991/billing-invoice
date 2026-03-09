@@ -1,5 +1,5 @@
 export type Language = 'bn' | 'en' | 'hi';
-export type InvoiceTheme = 'premium' | 'classic' | 'modern' | 'minimal';
+export type InvoiceTheme = 'premium' | 'classic' | 'modern' | 'minimal' | 'retro' | 'elegant' | 'industrial' | 'organic' | 'brutalist' | 'futuristic' | 'corporate' | 'playful' | 'darkLuxury' | 'technical';
 
 export interface ShopDetails {
   name: string;
