@@ -4,6 +4,7 @@ export const translations: Record<Language, any> = {
   en: {
     appName: "Invoicer",
     tagline: "Modern Billing Solution",
+    shopInfo: "Shop Info",
     customerDetails: "Customer Details",
     invoiceInfo: "Invoice Info",
     productDetails: "Product Details",
@@ -13,6 +14,8 @@ export const translations: Record<Language, any> = {
     phone: "Phone",
     invoiceNo: "Invoice No",
     date: "Date",
+    modelNumber: "Model Number",
+    imeiNumber: "IMEI Number",
     productName: "Product Name",
     price: "Price",
     qty: "Qty",
@@ -53,11 +56,14 @@ export const translations: Record<Language, any> = {
     playful: "Playful",
     darkLuxury: "Dark Luxury",
     technical: "Technical",
-    terms: "Terms & Conditions"
+    terms: "Terms & Conditions",
+    uploadLogo: "Upload Logo",
+    removeLogo: "Remove Logo"
   },
   bn: {
     appName: "ইনভয়েসার",
     tagline: "আধুনিক বিলিং সমাধান",
+    shopInfo: "দোকানের তথ্য",
     customerDetails: "কাস্টমার ডিটেইলস",
     invoiceInfo: "ইনভয়েস ইনফো",
     productDetails: "পণ্যের বিবরণ",
@@ -67,6 +73,8 @@ export const translations: Record<Language, any> = {
     phone: "ফোন",
     invoiceNo: "ইনভয়েস নং",
     date: "তারিখ",
+    modelNumber: "মডেল নাম্বার",
+    imeiNumber: "আইএমআই নাম্বার",
     productName: "পণ্যের নাম",
     price: "দাম",
     qty: "পরিমাণ",
@@ -107,11 +115,14 @@ export const translations: Record<Language, any> = {
     playful: "প্লেফুল",
     darkLuxury: "ডার্ক লাক্সারি",
     technical: "টেকনিক্যাল",
-    terms: "শর্তাবলী (Terms & Conditions)"
+    terms: "শর্তাবলী (Terms & Conditions)",
+    uploadLogo: "লোগো আপলোড করুন",
+    removeLogo: "লোগো মুছুন"
   },
   hi: {
     appName: "इनवॉइसर",
     tagline: "आधुनिक बिलिंग समाधान",
+    shopInfo: "दुकान की जानकारी",
     customerDetails: "ग्राहक विवरण",
     invoiceInfo: "इनवॉइस जानकारी",
     productDetails: "उत्पाद विवरण",
@@ -121,6 +132,8 @@ export const translations: Record<Language, any> = {
     phone: "फ़ोन",
     invoiceNo: "इनवॉइस नंबर",
     date: "तारीख",
+    modelNumber: "मॉडल नंबर",
+    imeiNumber: "आईएमईआई नंबर",
     productName: "उत्पाद का नाम",
     price: "कीमत",
     qty: "मात्रा",
@@ -161,6 +174,8 @@ export const translations: Record<Language, any> = {
     playful: "प्लेफुल",
     darkLuxury: "डार्क लग्जरी",
     technical: "तकनीकी",
-    terms: "नियम एवं शर्तें"
+    terms: "नियम एवं शर्तें",
+    uploadLogo: "लोगो अपलोड करें",
+    removeLogo: "लोगो हटाएँ"
   }
 };

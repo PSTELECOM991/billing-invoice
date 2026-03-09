@@ -12,11 +12,13 @@ export interface ShopDetails {
   ifsc: string;
   address: string;
   terms: string;
+  logo?: string;
 }
 
 export interface InvoiceItem {
   id: string;
-  name: string;
+  modelNumber: string;
+  imeiNumber: string;
   price: number;
   qty: number;
 }
