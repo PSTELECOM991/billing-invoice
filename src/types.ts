@@ -11,6 +11,7 @@ export interface ShopDetails {
   accountNo: string;
   ifsc: string;
   address: string;
+  terms: string;
 }
 
 export interface InvoiceItem {

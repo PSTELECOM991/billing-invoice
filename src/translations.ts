@@ -42,7 +42,8 @@ export const translations: Record<Language, any> = {
     premium: "Premium",
     classic: "Classic",
     modern: "Modern",
-    minimal: "Minimal"
+    minimal: "Minimal",
+    terms: "Terms & Conditions"
   },
   bn: {
     appName: "ইনভয়েসার",
@@ -85,7 +86,8 @@ export const translations: Record<Language, any> = {
     premium: "প্রিমিয়াম",
     classic: "ক্লাসিক",
     modern: "মডার্ন",
-    minimal: "মিনিমাল"
+    minimal: "মিনিমাল",
+    terms: "শর্তাবলী (Terms & Conditions)"
   },
   hi: {
     appName: "इनवॉइसर",
@@ -128,6 +130,7 @@ export const translations: Record<Language, any> = {
     premium: "प्रीमियम",
     classic: "क्लासिक",
     modern: "मॉडर्न",
-    minimal: "मिनिमल"
+    minimal: "मिनिमल",
+    terms: "नियम एवं शर्तें"
   }
 };

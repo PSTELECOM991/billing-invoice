@@ -60,7 +60,8 @@ export default function App() {
       bankName: '',
       accountNo: '',
       ifsc: '',
-      address: ''
+      address: '',
+      terms: ''
     };
   });
 
@@ -352,6 +353,18 @@ export default function App() {
                   </div>
                 </div>
               </div>
+
+              {/* Terms & Conditions Display */}
+              {shop.terms && (
+                <div className="pt-8 border-t border-slate-100">
+                  <h4 className={`text-[10px] font-bold uppercase tracking-widest mb-3 ${
+                    theme === 'modern' ? 'text-indigo-600' : 'text-slate-400'
+                  }`}>{t.terms}</h4>
+                  <p className="text-xs text-slate-500 leading-relaxed whitespace-pre-line italic">
+                    {shop.terms}
+                  </p>
+                </div>
+              )}
             </div>
           </motion.div>
         </div>
@@ -533,6 +546,21 @@ export default function App() {
               <Plus className="w-5 h-5 group-hover:scale-110 transition-transform" />
               {t.addItem}
             </button>
+
+            {/* Terms and Conditions Input */}
+            <div className="invoice-card space-y-4">
+              <h3 className="text-lg font-semibold flex items-center gap-2 text-slate-800">
+                <FileText className="w-5 h-5 text-indigo-500" />
+                📜 {t.terms}
+              </h3>
+              <textarea 
+                placeholder={t.terms}
+                rows={3}
+                className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-indigo-500 outline-none transition-all resize-none bg-slate-50/50"
+                value={shop.terms}
+                onChange={(e) => setShop({ ...shop, terms: e.target.value })}
+              />
+            </div>
           </div>
         </div>
 
@@ -684,6 +712,11 @@ export default function App() {
                     placeholder={t.address} rows={2}
                     className="w-full px-4 py-2 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-indigo-500 outline-none resize-none"
                     value={shop.address} onChange={(e) => setShop({...shop, address: e.target.value})}
+                  />
+                  <textarea 
+                    placeholder={t.terms} rows={3}
+                    className="w-full px-4 py-2 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-indigo-500 outline-none resize-none"
+                    value={shop.terms} onChange={(e) => setShop({...shop, terms: e.target.value})}
                   />
                 </div>
               </div>
